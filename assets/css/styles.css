@@ -267,6 +267,27 @@ footer {
   margin-top: 20px;
 }
 
+.game-about {
+  max-width: 840px;
+  margin: 10px auto 0;
+  padding: 0 16px;
+}
+
+.game-about h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Reserve the game box size on first paint (no waiting for window.load) */
+.gm-iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  max-height: 630px;
+  border: 0;
+  background: #000;
+}
+
 .btn-full {
   padding: 18px 32px;
   background: black;
